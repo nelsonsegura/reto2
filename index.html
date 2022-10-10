@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RETO2</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="myScript.js"></script>
+<body>
+  <h1> RETO 2 </h1>
+  
+  <h1> Alquiler de Computadores </h1>
+
+
+  <h1>Computadores</h1>
+  
+  Id del Computador: <input type="number" id="idpc"><br>
+  Marca del Computador: <input type="text" id="marca"><br>
+  Modelo del Computador: <input type="number" id="modelo"><br>
+  Categoria del Computador: <input type="number" id="categoria"><br>
+  Nombre del Computador: <input type="text" id="nombre"><br>
+  
+  <button onclick="guardarComputador()">GUARDAR COMPUTADOR</button>
+  <button onclick="editarComputador()">ACTUALIZAR COMPUTADOR</button>
+  <button onclick="leerComputador()">MOSTRAR COMPUTADORES</button>
+  
+  <div id="listaComputadores">
+  
+  </div>
+  
+
+
+
+
+  <h1>Clientes</h1>
+  
+  Id de Cliente: <input type="number" id="idCliente"><br>
+  Nombre de Cliente: <input type="text" id="nombreCliente"><br>
+  Correo de Cliente: <input type="text" id="mailCliente"><br>
+  Edad de Cliente: <input type="number" id="edadCliente"><br>
+  
+  <button onclick="guardarCliente()">GUARDAR CLIENTE</button>
+  <button onclick="editarCliente()">ACTUALIZAR CLIENTE</button>
+  <button onclick="leerClientes()">MOSTRAR CLIENTES</button>
+  
+  <div id="listaClientes">
+  
+  </div>
+  
+
+
+  <h1>Mensajes</h1>
+  
+  Id de Mensaje: <input type="number" id="idm"><br>
+  Mensaje: <input type="text" id="MENSAJE"><br>
+  
+  <button onclick="guardarMensaje()">GUARDAR MENSAJE</button>
+  <button onclick="editarMensaje()">ACTUALIZAR MENSAJE</button>
+  <button onclick="leerMensaje()">MOSTRAR MENSAJES</button>
+  
+  <div id="listaMensajes">
+  
+  </div>
+
+
+
+
+  
+</body>
+</html>	
